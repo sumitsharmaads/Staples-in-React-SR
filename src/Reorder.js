@@ -6,9 +6,9 @@ class Reorder extends Component{
 		return(
 			<div className="Reorder">
 				<div className ="Reorder-Icons">
-					<i class="fa fa-refresh"></i>
+				<i className="fa fa-refresh"></i>
 				</div>
-				<span className="TextValue">Reorder</span>
+				<span className="TextValue">Account</span>
 			</div>
 		);
 	}

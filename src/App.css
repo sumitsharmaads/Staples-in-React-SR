@@ -84,13 +84,6 @@ a {
   font-family: HelveticaNeueCondensed-Bold;
 }
 
-div {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 13px;
-  background: #fff;
-  color: #4d4d4d
-}
-
 .Link_header {
   height: 59px;
   line-height: 59px;
@@ -164,7 +157,6 @@ div {
   position: relative;
   z-index: 61;
   bottom: 50px;
-  background-color: red;
 }
 
 .Reorder {
@@ -174,40 +166,276 @@ div {
   border-left: 1px solid #e7e7e7;
 }
 
+.Reorder:hover {
+  background-color: #444444;
+  color:white;
+}
+
 .Account {
   height:59px;
   width:24%;
   float:left;
-  background-color: green;
+  border-left: 1px solid #e7e7e7;
+}
+
+.Account:hover {
+  background-color: #444444;
+  color:white;
 }
 
 .Connect {
   height:59px;
   width:24%;
-  background-color: yellow;
   float:left;
+  border-left: 1px solid #e7e7e7;
+}
+
+.Connect:hover{
+  background-color: #444444;
+  color:white;
 }
 
 .Cart {
   height:70px;
-  width:26%;
+  width:26.4%;
   float:left;
-  background-color: green;
+  border-left: 1px solid #e7e7e7;
+  background-color: #cc0000;
+  color:white;
 }
 
+.Cart:active{
+
+}
 .Reorder-Icons{
-  height:20px;
+  height:0px;
   margin-top:0px;
 
 }
 
 .fa-refresh {
-  font-size: 25px;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    color: inherit;
+}
+
+
+.fa-user-o {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: inherit;
+}
+
+.fa-comment-o {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: inherit;
+}
+
+.fa-cart-plus{
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: white;
 }
 
 .TextValue{
   font-size: 11px;
   position: relative;
+  top: 16px;
+}
+
+.Navigation {
+  border-bottom: 1px solid #e7e7e7;
+  height:36px;
+}
+
+.Bottom {
+  position: relative;
+  left: 340px;
+  bottom: 36px;
+}
+
+.Bottom li a{
+  display:inline-block;
+  height:46px;
+  list-style-type: none;
+  padding:25px;
+  font-size: 13px;
+  font-family: sans-serif;
+ 
+}
+.Bottom li {
+  float: left; 
+  list-style-type: none;
+}
+
+
+.Bottom li a:hover{
+  color:#c00;
+  text-decoration: underline;
+}
+
+.BigImage {
+  min-height:264px;
+  width:100%;
+  background-size: 1420px 263px;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181104/images/dg17839_c1_paper_32_1764x262.jpg);
+  background-position-x:center; 
+  padding:0px; 
+}
+
+
+.SecondHeader{
+  height:54px;
+  margin-top: 13px;
+  border:none;
+}
+
+.DivContainer{
+    width:1420px;
+    margin:auto;
+    height:53px;
+    background-color: #444444;
+}
+
+.Welcome {
+    float: left;
+    width: 250px;
+    position: relative;
+    color: #fff;
+    background-color: #444;
+    left: 20px;
+    z-index: 1;
+    height:53px;
+}
+
+.CenterDiv {
+    width: 630px;
+    float: left;
+    height: 49px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    color: #fff;
+    background-color: #444;
+}
+
+.CenterDivText {
+    line-height: 18px;
+    font-family: bold;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+.CenterDivText :hover{
+  text-decoration: underline;
+}
+
+.SignButton {
+    float: right;
+    width: 290px;
+    height: 40px;
+    position: relative;
+    left: -51px;
+    top: 8px;
+    color: #fff;
+    background-color: #444;
+}
+.Sign{
+  width:115px;
+  background-color:#fff;
+  color:#cc0000; 
+  height: 36px;
+  border:1px solid #ffffff;
+  border-radius: 7px;
+}
+.Create {
+    margin-left: 25px;
+    width: 115px;
+    background-color: #444444;
+    color: #fff;
+    height: 36px;
+    border: 1px solid #ffffff;
+}
+
+.Sign:hover {
+  background-color:#cc0000;
+  color:#fff;
+}
+.Create:hover {
+  background-color:#cc0000;
+}
+
+.MidPart {
+    margin-top: 15px;
+    height: 252px;
+    width: 1400px;
+    background: -webkit-linear-gradient(top,#fff 85%,#e7e7e7);
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+}
+
+.MidPartLeft {
+    float: left;
+    width: 900px;
+    height: 240px;
+    background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181104/images/dg17839_c2_pms_924x252.jpg);
+    margin-left: 65px;
+}
+
+.MidPartLeft:hover {
+  border:1px solid #e7e7e7;
+}
+
+
+.MidPartLeft_Text a {
+    font-family: HelveticaNeueCondensed-Bold;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 9px;
+    letter-spacing: .1px;
+    padding-left: 10px;
+    position: relative;
+    right: 360px;
+    top: -20px;
+}
+.MidPartLeft_Text_Value a {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 10px;
+    position: relative;
+    right: 344px;
+    bottom: 69px;
+}
+.Shop_Now {
+    position: relative;
+    top: 30px;
+    left: -360px;
+    width: 146px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #cc0000;
+    color: #fff;
+}
+.Shop_Now:hover{
+  background-color:#ffffff;
+  color:#cc0000;
 }
 @keyframes App-logo-spin {
   from {

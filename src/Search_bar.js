@@ -8,7 +8,7 @@ class Search_bar extends Component {
 				<div className="Search">
 					<form>
 						<input id="Input" type="text" name="Seach all for your business needs" placeholder="Seach all for your business needs" />
-						<button type="submit" className="button"><i class="fa fa-search"></i></button>
+						<button type="submit" className="button"><i className="fa fa-search"></i></button>
 					</form>
 				</div>
 			</div>
